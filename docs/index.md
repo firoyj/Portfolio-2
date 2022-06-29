@@ -1,4 +1,4 @@
-## Perpetual contract basics
+## Perpetual Contract Basics
 
 Perpetual contracts are a type of futures contract, pioneered in the cryptocurrency space by Bitmex. Perpetual contracts are one of the most popular derivative products in the space.
 
