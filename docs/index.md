@@ -25,9 +25,9 @@ By using API3’s solution we can open up support for ever more reputable direct
 ## vAMM
 Our exchange model is very different from other exchanges, including AMM-based exchanges.
 Key points:
-•	_XXXXX_ Protocol does not use liquidity or liquidity providers.
-•	_XXXXX_ Protocol is 100% AMM based; there is no order book.
-•	The on-chain price reflects trades on XXXXX Protocol - the price only moves when positions are opened or closed.
+-	_XXXXX_ Protocol does not use liquidity or liquidity providers.
+-	_XXXXX_ Protocol is 100% AMM based; there is no order book.
+-	The on-chain price reflects trades on XXXXX Protocol - the price only moves when positions are opened or closed.
 _XXXXX_ tracks the log2 of the underlying asset's price as our mark, i.e., mark price = log2 (index price)
 
 The log vAMM acts as an independent cash-settlement market. Hence to make the log vAMM mark price close to an underlying index, _XXXXX_ needs to add a funding rate, similar to funding payments for perpetual contracts on central limit order book exchanges.
