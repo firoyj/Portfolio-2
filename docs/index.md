@@ -13,25 +13,25 @@ Every hour, traders with open long or short positions will pay each other a fund
 
 ### Arbitrage
 If the contract price diverges significantly from the spot price in other exchanges, arbitrageurs can benefit in _two ways_:
-1. If they hold a position elsewhere, they can use XXXXX Protocol to take the inverse position and earn funding payments. 
-2. They buy or sell an asset elsewhere, and long or short that asset using XXXXX Protocol, in the expectation that the price will tend to move back toward the spot price
+1. If they hold a position elsewhere, they can use _XXXXX_ Protocol to take the inverse position and earn funding payments. 
+2. They buy or sell an asset elsewhere, and long or short that asset using _XXXXX_ Protocol, in the expectation that the price will tend to move back toward the spot price
 
-XXXXX will connect to API3 data beacons, which are atomic data feeds powered by a singular first-party oracle. Beacons will be used as inputs into the calculations of the logarithmic options pricing model. In partnering with API3, XXXXX can scale its data categories and pairs while having the data feeds covered in the event of any mishaps or manipulation, as is currently prevalent in the data oracle space. API3 has a well-reserved coverage pool for valid claims.
+_XXXXX_ will connect to API3 data beacons, which are atomic data feeds powered by a singular first-party oracle. Beacons will be used as inputs into the calculations of the logarithmic options pricing model. In partnering with API3, _XXXXX_ can scale its data categories and pairs while having the data feeds covered in the event of any mishaps or manipulation, as is currently prevalent in the data oracle space. API3 has a well-reserved coverage pool for valid claims.
 
 In using first-party data oracles, API3 provides reliable and reputable data feeds with coverage. Having coverage attached to the use of the data feed increases the robustness and confidence in their use for decentralized applications and smart contracts.
-API3 is a critical Web3 building block for the quality and quantity of datasets. In order to attract users, the addition of diverse data sets is needed, which grows the total value locked and fee revenue from the opening and closing of trading positions on the XXXXX protocol.
+API3 is a critical Web3 building block for the quality and quantity of datasets. In order to attract users, the addition of diverse data sets is needed, which grows the total value locked and fee revenue from the opening and closing of trading positions on the _XXXXX_ protocol.
 By using API3’s solution we can open up support for ever more reputable direct data sources, which means that we will immediately be able to take advantage of this.
 
 ## vAMM
 Our exchange model is very different from other exchanges, including AMM-based exchanges.
 Key points:
-•	XXXXX Protocol does not use liquidity or liquidity providers.
-•	XXXXX Protocol is 100% AMM based; there is no order book.
+•	_XXXXX_ Protocol does not use liquidity or liquidity providers.
+•	_XXXXX_ Protocol is 100% AMM based; there is no order book.
 •	The on-chain price reflects trades on XXXXX Protocol - the price only moves when positions are opened or closed.
-XXXXX tracks the log2 of the underlying asset's price as our mark, i.e., mark price = log2 (index price)
+_XXXXX_ tracks the log2 of the underlying asset's price as our mark, i.e., mark price = log2 (index price)
 
-The log vAMM acts as an independent cash-settlement market. Hence to make the log vAMM mark price close to an underlying index, XXXXX needs to add a funding rate, similar to funding payments for perpetual contracts on central limit order book exchanges.
+The log vAMM acts as an independent cash-settlement market. Hence to make the log vAMM mark price close to an underlying index, _XXXXX_ needs to add a funding rate, similar to funding payments for perpetual contracts on central limit order book exchanges.
 
 Traders use collateral (USDC) to open long or short positions in a given asset. Every time a trade is made, the vAMM calculates the entry or exit price in the same way prices are calculated on Uniswap or other AMM style exchanges. 
 
-An important difference with the vAMM is that no swap is occurring. Unlike Uniswap, for example, where traders arrive with asset A and leave with asset B, on XXXXX Protocol traders always arrive with USDC, and leave with USDC. This allows the protocol to operate without ever having held the underlying asset.
+An important difference with the vAMM is that no swap is occurring. Unlike Uniswap, for example, where traders arrive with asset A and leave with asset B, on _XXXXX_ Protocol traders always arrive with USDC, and leave with USDC. This allows the protocol to operate without ever having held the underlying asset.
